@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>inline-confirm example</title>
+  </head>
+  <body>
+
+    <form>
+      <input type="hidden" name="id" value="123"/>
+      <button type="submit">Delete</button>
+    </form>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../dist/inline-confirm.js"></script>
+    <script>
+      $('form button').inlineConfirm();
+    </script>
+  </body>
+</html>
